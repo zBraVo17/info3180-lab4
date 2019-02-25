@@ -9,7 +9,7 @@ from app import app
 from flask import render_template, request, redirect, url_for, flash, session, abort
 from werkzeug.utils import secure_filename
 
-from forms import UploadForm
+from .forms import UploadForm
 
 ###
 # Routing for your application.
